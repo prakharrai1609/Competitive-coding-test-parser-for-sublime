@@ -24,7 +24,8 @@ This is a test parser which can automatically parse the tests in from websites l
 4. Make sure you keep the same name in line no. 28 as well i.e. if your file name is "i" , in line 28, make the first parameter of the function as path + "/i".
 5. Go into the project directory using the terminal.
 6. Run the command : " npm install " to install all the modules and dependencies of the project.
-7. Then run the command : " node app.js " to run the project.
+7. Then run the command : " node index.js " to run the project.
+8. Note : Don't close the terminal. Let it run in background.
 
 <strong>Now just go to any problem on codeforces, atcoder, codechef etc and click on competitive companion and your inputs will be parsed! 😃</strong>
 
