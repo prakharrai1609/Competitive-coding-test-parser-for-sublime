@@ -27,6 +27,27 @@ This is a test parser which can automatically parse the tests in from websites l
 7. Then run the command : " node index.js " to run the project.
 8. Note : Don't close the terminal. Let it run in background.
 
+### NOTE : 
+- You have to add 1 extra loop in sublime to run it over all sample test cases.
+- For ex. you run your regular test cases like :
+```
+int t;
+cin >> t;
+while (t--) {...)
+```
+- Now all you have to do is add 1 extra loop :
+```
+int samples = 1;
+cin >> samples;
+while (samples--) {
+  int t;
+  cin >> t;
+  while (t--) {...)
+}
+```
+- That's it. 
+- When you submit on any judge, just comment out the line : " cin >> samples; ".
+
 <strong>Now just go to any problem on codeforces, atcoder, codechef etc and click on competitive companion and your inputs will be parsed! 😃</strong>
 
 ### Please drop a ⭐ if it helps you  :) .
