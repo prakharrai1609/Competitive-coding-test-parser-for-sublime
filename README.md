@@ -12,6 +12,9 @@ This is a test parser which can automatically parse the tests in from websites l
 2. Their was no test parser which can generate the test cases inside input.txt itself. 
 3. I wanted one :p .
 
+## ✔ Pre-requisites for running this.
+- You should have node.js installed in your computer. 
+- If not, just download node js from <a href="https://nodejs.org/en/">here</a>.
 
 ## ✔ How to run this?
 1. Download the project.
