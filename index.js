@@ -6,9 +6,9 @@ const { type } = require("express/lib/response");
 const app = express();
 
 const port = 10045;
-// const path = "F:\\Sublime Text (4121)\\dailyFun";
+
 const path = "F:/Sublime Text (4121)/dailyFun";
-// const path = "C:/Users/Prakhar Rai/Desktop/cf tool/test_parser";
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
