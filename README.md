@@ -14,10 +14,14 @@ This is a test parser which can automatically parse the tests in from websites l
 
 ## ✔ Pre-requisites for running this.
 - You should have node.js installed in your computer. 
-- If not, just download node js from <a href="https://nodejs.org/en/">here</a>.
+- If not, don't worry, just download node js from <a href="https://nodejs.org/en/">here</a>.
+- Competitive companion extension in chrome : download from <a href="https://chrome.google.com/webstore/detail/competitive-companion/cjnmckjndlpiamhfimnnjmnckgghkjbl">here</a>.
 
 ## ✔ How to run this?
 1. Download the project.
-2. Go into the project directory using the terminal.
-3. Tun the command : " npm install " to install all the modules and dependencies of the project.
-4. Then run the command : " node app.js " to run the project.
+2. Go into the file "index.js" and in line number 10, change the "path" to the path of your "input.txt" file or any name of your input file. Make sure you keep the same name in line no. 28 as well i.e. if your file name is "i" , in line 28, make the first parameter of the function as path + "/i".
+3. Go into the project directory using the terminal.
+4. Run the command : " npm install " to install all the modules and dependencies of the project.
+5. Then run the command : " node app.js " to run the project.
+
+<i>Now just go to any problem on codeforces, atcoder, codechef etc and click on competitive conmpanion and bam! your inputs are parsed! 😃</i>
